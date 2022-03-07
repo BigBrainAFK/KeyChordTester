@@ -3,8 +3,10 @@
 Most of the code Originated here
 https://stackoverflow.com/questions/604410/global-keyboard-capture-in-c-sharp-application
 
-it just prints received key strokes and their timestamp relative to system bootup.
-if the timestamps are equal they were received at the same time by the pc.
+It just prints received key strokes and their timestamp relative to Windows bootup time.
+If the timestamps are equal they were received at the same time by the pc.
+
+Timestamps are given in milliseconds as this seems to be the lowest resolution Windows offers.
 
 */
 
