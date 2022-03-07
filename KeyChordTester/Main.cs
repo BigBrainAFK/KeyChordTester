@@ -30,7 +30,6 @@ namespace KeyChordTester
             AllocConsole();
             _hookID = SetHook(_proc);
             Application.Run();
-            Console.WriteLine($"started");
             UnhookWindowsHookEx(_hookID);
         }
 
